@@ -1,0 +1,10 @@
+
+
+1)Ho scelto una relazione uno-a-molti tra Utente e Prestito perché un utente può
+prendere in prestito più libri, ma un prestito è sempre associato a un solo utente.
+
+2) Ho introdotto la tabella Catalogo per organizzare le pubblicazioni in diverse categorie (es. libri, riviste).
+ Questo mi permette di effettuare ricerche e filtri più specifici.
+
+3) Ho utilizzato una tabella associativa (Libro_Autore) per gestire la relazione molti-a-molti tra Libri e Autori.
+ Questa soluzione è flessibile e consente di gestire facilmente casi in cui un libro ha più autori.
